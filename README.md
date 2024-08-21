@@ -8,7 +8,7 @@ Pinster is a location-based memory content management system. Users are able to 
 
 The current repository will provide the front-end framework for the application, which is written in vanilla Javascript.
 
-####You must additionally fork and clone the repository at `https://github.com/cristalcodes/pin-it-backend` .
+####You must additionally fork and clone the repository at `https://github.com/merrycrismoz/pin-it-backend` .
 
 This respository will provide the backend framework that is necessary for running the application. It is written in Ruby using the Ruby on Rails framework.
 
