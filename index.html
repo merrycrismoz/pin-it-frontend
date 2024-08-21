@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pin-It</title>
+  <script type="text/javascript" src="./src/map.js"></script>
+  <script type="text/javascript" src="./src/memory.js"></script>
+  <link rel="stylesheet" href="./stylesheet.css" />
+</head>
+
+<body>
+
+  <!-- Map  -->
+  <center>
+    <h1>Hello Pinster</h1>
+      <p>
+        Click on a pin to see or add a memory at that location. To add a pin <a href= "#" onClick= 'addAPin(); return false;'>click here</a>.
+        <br>
+        To see a list of all your visited locations, <a href= "#" onClick= 'seeAllPins(); return false;'>click here</a>.
+      </p>
+    <div id="map" >
+
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAt1thOLxUcuQS2l3_q-cwzCJosrRyurpo&callback=initMap">
+      </script>
+    </div>
+
+  <!-- Form   -->
+
+
+    <div id="header-container"></div>
+
+
+  <!-- Container -->
+
+  <div id="content-container">
+
+  </div>
+</center>
+
+
+</body>
+</html>
+<!-- async defer -->
